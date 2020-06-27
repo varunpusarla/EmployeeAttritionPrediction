@@ -1,0 +1,27 @@
+*********************STEPS THAT I FOLLOWED****************************************
+
+1. IMPORTING THE DATASETS:
+Imported the training and testing datasets using pandas .read_csv() function.
+
+2. EXPLORATORY DATA ANALYSIS:
+a)Placed all the missing values in a seperate list.
+b)Placed all thenumeric, categorical and discrete values in different lists.
+c)Visualized numerical features with line plot from matplotlib.
+d)Visualized continousfeatures with histogram from matplotlib.
+
+3.FEATURE ENGINEERING:
+a) Replace all the missing values with the mean of their respective field.
+b) Encoded Object datatypes using Label Encoder from sklearn
+
+4. FEATURE SCALING:
+a) Scaled all the data with standard scaler from sklearn.
+
+5.MODEL FITTING:
+a) Split the data into training and test sets.
+b)Trained the model using XGBoost Regressor.
+c) hyperparameter tuning with RandomsearchCV.
+d) Stored the predictions in 'MySubmission.csv'.
+
+
+Regards, 
+varunpusarla@gmail.com
